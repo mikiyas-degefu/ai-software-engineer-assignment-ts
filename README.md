@@ -61,3 +61,28 @@ Create `EXPLANATION.md` (max 250 words) containing:
 ## Submission
 
 - Submit a public GitHub repository URL containing your solution to the Google form link provided.
+
+## How To Run
+
+### Run tests with Docker
+
+Build the image:
+
+```bash
+docker build -t ai-software-engineer-assignment-ts .
+```
+
+Run the test suite in the container:
+
+```bash
+docker run --rm ai-software-engineer-assignment-ts
+```
+
+### Run tests locally
+
+Install dependencies and run the test suite:
+
+```bash
+npm install
+npm test
+```
